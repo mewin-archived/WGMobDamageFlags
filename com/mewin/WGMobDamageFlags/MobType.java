@@ -29,5 +29,8 @@ public enum MobType {
     SQUID, 
     VILLAGER,
     WOLF,  
-    ZOMBIE
+    ZOMBIE, 
+    
+    //Minecraft 1.6.1
+    HORSE
 }

@@ -11,9 +11,11 @@ import org.bukkit.entity.EntityType;
  */
 public final class Utils {
     
-    public static boolean mobDamageAllowedAtLocation(WorldGuardPlugin wgp, MobType mobType, Location loc) {
+    public static boolean mobDamageAllowedAtLocation(WorldGuardPlugin wgp, MobType mobType, Location loc)
+    {
         return Util.flagAllowedAtLocation(wgp, mobType, loc, WGMobDamageFlagsPlugin.MOB_DAMAGE_ALLOW_FLAG, WGMobDamageFlagsPlugin.MOB_DAMAGE_DENY_FLAG, MobType.ANY);
     }
+    
     public static MobType mobTypeForEntity(EntityType entityType)
     {
         try
