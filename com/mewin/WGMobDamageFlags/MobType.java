@@ -17,6 +17,7 @@ public enum MobType {
     ENDER_DRAGON, 
     ENDER_MAN, 
     IRON_GOLEM, 
+    GIANT, //added in 1.2
     GHAST, 
     MAGMA_CUBE, 
     OCELOT, 
