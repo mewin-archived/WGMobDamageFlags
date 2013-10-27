@@ -8,7 +8,7 @@ public enum MobType {
     ANY, 
     OTHER, 
     
-    
+    BAT, //added in 1.2.1
     BLAZE, 
     CAVE_SPIDER, 
     CHICKEN, 
@@ -20,15 +20,20 @@ public enum MobType {
     GIANT, //added in 1.2
     GHAST, 
     MAGMA_CUBE, 
+    MUSHROOM_COW, //added in 1.2.1
     OCELOT, 
     PIG, 
     PIG_ZOMBIE, 
     SHEEP, 
+    SILVERFISH, //added in 1.2.1
     SKELETON, 
     SLIME, 
+    SNOWMAN, //added in 1.2.1
     SPIDER, 
     SQUID, 
     VILLAGER,
+    WITCH, //added in 1.2.1
+    WITHER, //too
     WOLF,  
     ZOMBIE, 
     

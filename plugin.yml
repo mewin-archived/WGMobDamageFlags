@@ -1,5 +1,5 @@
 name: WGMobDamageFlags
 author: mewin
-version: 1.2
+version: 1.2.1
 main: com.mewin.WGMobDamageFlags.WGMobDamageFlagsPlugin
 depend: [ WorldGuard, WGCustomFlags ]
